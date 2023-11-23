@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 1000px;
+}
+
+h2 {
+    color:deepskyblue
+}
+
+table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-color: white;
+    border: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border-radius: 4%;
+}
+
+input {
+    margin: 2px;
+}
+
+td {
+    padding: 10px;
+}
