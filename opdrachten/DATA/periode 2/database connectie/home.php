@@ -7,10 +7,23 @@
 </head>
 <body>
     <h1>home</h1>
+
+    <form>
+        <table>
+            <label for="naam">Wat is je naam?</label>
+            <input type="text" name="naam" id="naam" placeholder="Naam">
+
+            <label for="telefoonnummer">telefoonnummer</label>
+            <input type="text" name="telefoonnummer" id="telefoonnummer" placeholder="telefoonnummer">
+
+            <input type="submit" value="voltooien">
+        </table>
+    </form>
+
     <?php
-        //Maak vervolgens in de zelfde map een file home.php en zorg ervoor dat
-        //de Database class wordt aangeroepen een een tekst wordt getoond als de database connectie tot stand is gebracht.
-        include "db.php";
+
+
+
     ?>
 </body>
 </html>
